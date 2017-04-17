@@ -1,15 +1,18 @@
 div {
-  height: 147px;
-  width: 147px;
+  height: 161px;
+  width: 161px;
   margin: 20px;
   padding: 7px;
   background-color: yellow;
   border-style: solid;
   border-width: 1px;
+  box-sizing: border-box;
 }
 .second {
   width: 700px;
-  height: 203px;
+  height: 210px;
+  box-sizing: border-box;
+  
 }
 .second > div {
   display: inline-block;
