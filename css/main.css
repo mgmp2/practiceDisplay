@@ -3,6 +3,8 @@ div {
   height: 40px;
   margin: 20px;
   padding: 10px;
+  display: inline-block;
+  
 }
 
 
