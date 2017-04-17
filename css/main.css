@@ -1,14 +1,25 @@
 div {
-  background-color: yellow;
-  height: 40px;
+  height: 147px;
   width: 147px;
   margin: 20px;
   padding: 7px;
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+}
+.second {
+  width: 700px;
+  height: 203px;
+}
+.second > div {
   display: inline-block;
 
+
+}
+.second > .dos{
+  background: #de23c9;
 }
 
-
-.dos{
-  background: #de23c9;
+.third, .fourth{
+  display: inline-block;
 }
